@@ -9,8 +9,7 @@ namespace SimpleMarketApp.Controllers
     public class MarketController : Controller
     {
         private readonly AppDbContext _context;
-        private static List<Item> cartItems = new List<Item>(); // ✅ renamed
-
+        private static List<Item> cartItems = new List<Item>(); 
         public MarketController(AppDbContext context)
         {
             _context = context;
